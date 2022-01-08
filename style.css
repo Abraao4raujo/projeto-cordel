@@ -1,0 +1,100 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+@font-face {
+    font-family: 'Passion One', cursive;
+    font-family: 'Sriracha', cursive;
+    src: url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+}
+
+    :root{
+        --fonte1: 'Passion One', cursive;
+        --fonte2: 'Sriracha', cursive;
+        --fonte3: 'Verdana', Geneva, Tahoma, sans-serif;
+    }
+
+    *{
+        padding: 0px;
+        margin: 0px;
+        font-size: 1em;
+    }
+
+    header{
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+    
+
+    header > h1{
+        padding-top: 70px;
+        font-variant: small-caps;
+        font-family: var(--fonte1);
+        font-size: 10vw;
+    }
+
+    header > p{
+        font-size: 20px;
+        font-family: var(--fonte3);
+        padding-bottom: 80px;
+    }
+
+    section.normal{
+        font-family: var(--fonte2);
+        font-size: 3.5vw;
+        padding-top: 60px;
+        padding-left: 30px;
+        padding-bottom: 10px;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+
+    section#img01{
+        background-image: url(imagens/background001.jpg);
+        background-position: right center;
+    }
+    
+    section#img02{
+        background-image: url(imagens/background002.jpg);
+    }
+
+    section.imagem{
+        color: white;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    section{
+        line-height: 2em;
+        padding-left: 30px;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        font-family: var(--fonte2);
+        font-size: 3.5vw;
+    }
+    
+    section.imagem > p {
+        display: inline-block;
+        background-color: rgba(0, 0, 0, 0.534);
+        padding-right: 5px;
+    }
+    
+    section > p{
+        padding-bottom: 2em;
+    }
+
+    footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        font-family: var(--fonte3);
+    }
